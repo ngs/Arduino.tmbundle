@@ -67,6 +67,10 @@ Bleeding Edge
 For the adventurous
 
     git clone git://github.com/nasser/arduino.tmbundle.git ~/Library/Application\ Support/TextMate/Bundles/Arduino.tmbundle
+
+OR for TextMate 2
+
+    git clone git@github.com:ngs/Arduino.tmbundle.git ~/Library/Application Support/TextMate/Managed/Bundles/Arduino.tmbundle.git
     
 Changes
 =======
