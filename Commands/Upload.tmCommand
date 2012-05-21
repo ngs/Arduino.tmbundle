@@ -6,9 +6,10 @@
 	<string>saveModifiedFiles</string>
 	<key>command</key>
 	<string>#!/bin/bash
-echo "&lt;pre&gt;"
-/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/make -e -f "$TM_BUNDLE_SUPPORT/Makefile" upload
-echo "&lt;/pre&gt;"</string>
+echo "&lt;body style='background:#333;color:#eee;'&gt;&lt;pre&gt;"
+/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin/make -e -f "$TM_BUNDLE_SUPPORT/Makefile" upload 2&gt;&amp;1 &gt; /dev/null
+echo "&lt;/pre&gt;&lt;/body&gt;"
+</string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
